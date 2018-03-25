@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_CorrectStudentInformation_RedirectToStudentMain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a9882eb-0ed0-4135-92d2-e89c264d12ca</testCaseGuid>
+</TestCaseEntity>

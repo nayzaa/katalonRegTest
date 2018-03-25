@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login_CorrectAdminInformation_RedirectToAdminMain</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b538cfe8-230d-4180-a435-710855aeccc0</testCaseGuid>
+</TestCaseEntity>
