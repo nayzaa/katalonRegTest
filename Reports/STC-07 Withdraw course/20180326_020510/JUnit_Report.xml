@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STC-07 Withdraw course" time="10" tests="2" failures="0" errors="0">
+   <testsuite name="STC-07 Withdraw course" tests="2" failures="0" errors="0" time="10" timestamp="2018-03-26 02:05:11" hostname="thawichok_nikhomkhet - DESKTOP-ETJ3RSS" id="Test Suites/STC-07 Withdraw course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-07 Withdraw course\\20180326_020510"/>
+         <property name="logFiles" value="C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-07 Withdraw course\\20180326_020510\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="thawichok_nikhomkhet - DESKTOP-ETJ3RSS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="0780e1fc99e8a273a84b598d9029f56a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Withdrawcourse_success" classname="Test Cases/Withdrawcourse_success" status="PASSED">
+         <system-out><![CDATA[2018-03-26 02:05:12 - [TEST_CASE][PASSED] - Test Cases/Withdrawcourse_success: Test Cases/Withdrawcourse_success
+
+2018-03-26 02:05:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 02:05:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 02:05:15 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:16 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Withdraw/Page_Withdraw/a_Withdraw' is clicked on
+
+2018-03-26 02:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Withdraw/Page_Withdraw/a_Withdraw' is clicked on
+
+2018-03-26 02:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Withdraw/Page_Withdraw/button_Confirm' is clicked on
+
+2018-03-26 02:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Withdraw/Page_Withdraw/button_Confirm' is clicked on
+
+2018-03-26 02:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Withdraw/Page_Withdraw/div_Withdraw Success..' is clicked on
+
+2018-03-26 02:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Withdraw/Page_Withdraw/div_Withdraw Success..' is clicked on
+
+2018-03-26 02:05:16 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Withdraw/Page_Withdraw/div_Withdraw Success..' is present
+
+2018-03-26 02:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-26 02:05:16 - [MESSAGE][PASSED] - Object 'Object Repository/Withdraw/Page_Withdraw/div_Withdraw Success..' is present
+
+2018-03-26 02:05:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 02:05:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Withdrawcourse_cancelconfirmation" classname="Test Cases/Withdrawcourse_cancelconfirmation" status="PASSED">
+         <system-out><![CDATA[2018-03-26 02:05:17 - [TEST_CASE][PASSED] - Test Cases/Withdrawcourse_cancelconfirmation: Test Cases/Withdrawcourse_cancelconfirmation
+
+2018-03-26 02:05:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 02:05:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 02:05:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Withdraw/Page_Withdraw/a_Withdraw' is clicked on
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Withdraw/Page_Withdraw/a_Withdraw' is clicked on
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Withdraw/Page_Withdraw/button_Cancel' is clicked on
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Withdraw/Page_Withdraw/button_Cancel' is clicked on
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index_s.html' successfully
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/See enroll/Page_Student/td_Withdraw' is clicked on
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/See enroll/Page_Student/td_Withdraw' is clicked on
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/See enroll/Page_Student/td_Withdraw' is present
+
+2018-03-26 02:05:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-03-26 02:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/See enroll/Page_Student/td_Withdraw' is present
+
+2018-03-26 02:05:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-03-26 02:05:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 02:05:11 - [TEST_SUITE][PASSED] - STC-07 Withdraw course: Test Cases/Withdrawcourse_cancelconfirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,7 +4,7 @@
    <name>STC-01 Login to the system</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-03-25T23:20:49</lastRun>
+   <lastRun>2018-03-26T01:09:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

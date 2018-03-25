@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STC-01 Login to the system" time="46" tests="0" failures="8" errors="0">
+   <testsuite name="STC-01 Login to the system" tests="0" failures="8" errors="0" time="46" timestamp="2018-03-26 01:09:30" hostname="thawichok_nikhomkhet - DESKTOP-ETJ3RSS" id="Test Suites/STC-01 Login to the system">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927"/>
+         <property name="logFiles" value="C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001378755.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001384717.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001389655.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001394890.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001400484.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001405019.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001410463.png, C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001415380.png"/>
+         <property name="hostName" value="thawichok_nikhomkhet - DESKTOP-ETJ3RSS"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="88ab56bcad34802e676043eea98a7b4b"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill" classname="Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:09:30 - [TEST_CASE][FAILED] - Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill: Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:09:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:09:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:09:34 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:38 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:38 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:09:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:09:38 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:09:38 - [MESSAGE][FAILED] - Text 'Please fill in both email and password.' is not present on page 
+
+2018-03-26 01:09:39 - [MESSAGE][FAILED] - Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001378755.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:09:30 - [TEST_CASE][FAILED] - Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill: Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain" classname="Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Teacher information' is present  (Root cause: Text 'Teacher information' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:09:39 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain: Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain FAILED because (of) Unable to verify text 'Teacher information' is present  (Root cause: Text 'Teacher information' is not present on page )
+
+2018-03-26 01:09:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:09:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:09:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:09:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:44 - [TEST_STEP][PASSED] - setText: Text 'admin0025@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Text 'admin0025@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:44 - [TEST_STEP][PASSED] - setText: Text '0025admin' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Text '0025admin' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:09:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:09:44 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Teacher information' is present  (Root cause: Text 'Teacher information' is not present on page )
+
+2018-03-26 01:09:44 - [MESSAGE][FAILED] - Text 'Teacher information' is not present on page 
+
+2018-03-26 01:09:45 - [MESSAGE][FAILED] - Unable to verify text 'Teacher information' is present  (Root cause: Text 'Teacher information' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001384717.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:09:39 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain: Test Cases/Login_CorrectAdminInformation_RedirectToAdminMain FAILED because (of) Unable to verify text 'Teacher information' is present  (Root cause: Text 'Teacher information' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain" classname="Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Add Course' is present  (Root cause: Text 'Add Course' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:09:45 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain: Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain FAILED because (of) Unable to verify text 'Add Course' is present  (Root cause: Text 'Add Course' is not present on page )
+
+2018-03-26 01:09:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:09:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:09:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:09:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:49 - [TEST_STEP][PASSED] - setText: Text 'peera_s@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Text 'peera_s@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:49 - [TEST_STEP][PASSED] - setText: Text 'abcdef' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Text 'abcdef' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:09:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:09:49 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Add Course' is present  (Root cause: Text 'Add Course' is not present on page )
+
+2018-03-26 01:09:49 - [MESSAGE][FAILED] - Text 'Add Course' is not present on page 
+
+2018-03-26 01:09:49 - [MESSAGE][FAILED] - Unable to verify text 'Add Course' is present  (Root cause: Text 'Add Course' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001389655.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:09:45 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain: Test Cases/Login_CorrectStudentInformation_RedirectToStudentMain FAILED because (of) Unable to verify text 'Add Course' is present  (Root cause: Text 'Add Course' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_BlankEmailPassword_MessagePleaseFill" classname="Test Cases/Login_BlankEmailPassword_MessagePleaseFill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:09:49 - [TEST_CASE][FAILED] - Test Cases/Login_BlankEmailPassword_MessagePleaseFill: Test Cases/Login_BlankEmailPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:09:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:09:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:09:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:09:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:09:54 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:09:54 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:09:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:09:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:09:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:09:54 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:09:54 - [MESSAGE][FAILED] - Text 'Please fill in both email and password.' is not present on page 
+
+2018-03-26 01:09:55 - [MESSAGE][FAILED] - Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001394890.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:09:49 - [TEST_CASE][FAILED] - Test Cases/Login_BlankEmailPassword_MessagePleaseFill: Test Cases/Login_BlankEmailPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain" classname="Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Student information' is present  (Root cause: Text 'Student information' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:09:55 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain: Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain FAILED because (of) Unable to verify text 'Student information' is present  (Root cause: Text 'Student information' is not present on page )
+
+2018-03-26 01:09:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:09:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:09:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:09:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:59 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:09:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:00 - [TEST_STEP][PASSED] - setText: Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:00 - [MESSAGE][PASSED] - Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:00 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:00 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:10:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:10:00 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Student information' is present  (Root cause: Text 'Student information' is not present on page )
+
+2018-03-26 01:10:00 - [MESSAGE][FAILED] - Text 'Student information' is not present on page 
+
+2018-03-26 01:10:00 - [MESSAGE][FAILED] - Unable to verify text 'Student information' is present  (Root cause: Text 'Student information' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001400484.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:09:55 - [TEST_CASE][FAILED] - Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain: Test Cases/Login_CorrectTeacherInformation_RedirectToTeacherMain FAILED because (of) Unable to verify text 'Student information' is present  (Root cause: Text 'Student information' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill" classname="Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:10:00 - [TEST_CASE][FAILED] - Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill: Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:10:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:10:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:10:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:10:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:04 - [TEST_STEP][PASSED] - setText: Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:10:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:10:04 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+
+2018-03-26 01:10:05 - [MESSAGE][FAILED] - Text 'Please fill in both email and password.' is not present on page 
+
+2018-03-26 01:10:05 - [MESSAGE][FAILED] - Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001405019.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:10:00 - [TEST_CASE][FAILED] - Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill: Test Cases/Login_FilledEmailBlankPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_IncorrectEmailFormat_MessageIncorrect" classname="Test Cases/Login_IncorrectEmailFormat_MessageIncorrect" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:10:05 - [TEST_CASE][FAILED] - Test Cases/Login_IncorrectEmailFormat_MessageIncorrect: Test Cases/Login_IncorrectEmailFormat_MessageIncorrect FAILED because (of) Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+
+2018-03-26 01:10:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:10:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:10:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:10:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:09 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:10 - [TEST_STEP][PASSED] - setText: Text 'something_gg' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:10 - [MESSAGE][PASSED] - Text 'something_gg' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:10 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:10 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:10:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:10:10 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+
+2018-03-26 01:10:10 - [MESSAGE][FAILED] - Text 'Your email or password are incorrect.' is not present on page 
+
+2018-03-26 01:10:10 - [MESSAGE][FAILED] - Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001410463.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:10:05 - [TEST_CASE][FAILED] - Test Cases/Login_IncorrectEmailFormat_MessageIncorrect: Test Cases/Login_IncorrectEmailFormat_MessageIncorrect FAILED because (of) Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login_IncorrectPassword_MessageIncorrect" classname="Test Cases/Login_IncorrectPassword_MessageIncorrect" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )"/>
+         <system-out><![CDATA[2018-03-26 01:10:10 - [TEST_CASE][FAILED] - Test Cases/Login_IncorrectPassword_MessageIncorrect: Test Cases/Login_IncorrectPassword_MessageIncorrect FAILED because (of) Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+
+2018-03-26 01:10:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-03-26 01:10:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-03-26 01:10:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-03-26 01:10:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:14 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/index.html' successfully
+
+2018-03-26 01:10:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/a_Login' is clicked on
+
+2018-03-26 01:10:14 - [TEST_STEP][PASSED] - setText: Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:15 - [MESSAGE][PASSED] - Text 'surasung_w@cmu.ac.th' is set on object 'Object Repository/Page_Registration/input_email'
+
+2018-03-26 01:10:15 - [TEST_STEP][PASSED] - setText: Text '1a2b' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:15 - [MESSAGE][PASSED] - Text '1a2b' is set on object 'Object Repository/Page_Registration/input_password'
+
+2018-03-26 01:10:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Registration/button_Login' is clicked on
+
+2018-03-26 01:10:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-03-26 01:10:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-03-26 01:10:15 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+
+2018-03-26 01:10:15 - [MESSAGE][FAILED] - Text 'Your email or password are incorrect.' is not present on page 
+
+2018-03-26 01:10:15 - [MESSAGE][FAILED] - Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )
+[[ATTACHMENT|C:\\Users\\thawichok_nikhomkhet\\git\\katalonRegTest\\Reports\\STC-01 Login to the system\\20180326_010927\\1522001415380.png]]]]></system-out>
+         <system-err><![CDATA[2018-03-26 01:10:10 - [TEST_CASE][FAILED] - Test Cases/Login_IncorrectPassword_MessageIncorrect: Test Cases/Login_IncorrectPassword_MessageIncorrect FAILED because (of) Unable to verify text 'Your email or password are incorrect.' is present  (Root cause: Text 'Your email or password are incorrect.' is not present on page )]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-03-26 01:09:30 - [TEST_SUITE][FAILED] - STC-01 Login to the system: Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )]]></system-out>
+      <system-err><![CDATA[2018-03-26 01:09:30 - [TEST_SUITE][FAILED] - STC-01 Login to the system: Test Cases/Login_BlankEmailFilledPassword_MessagePleaseFill FAILED because (of) Unable to verify text 'Please fill in both email and password.' is present  (Root cause: Text 'Please fill in both email and password.' is not present on page )]]></system-err>
+   </testsuite>
+</testsuites>

@@ -14,6 +14,6 @@
       <guid>97e2e9a6-2317-49b0-873c-dff6359f550e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/see Enrolled in a course</testCaseId>
+      <testCaseId>Test Cases/See_enrolled_in_a_course</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
