@@ -4,6 +4,7 @@
    <name>STC-08 See Tuition fee</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-03-29T04:27:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

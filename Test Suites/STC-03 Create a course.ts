@@ -4,6 +4,7 @@
    <name>STC-03 Create a course</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-03-29T04:25:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
