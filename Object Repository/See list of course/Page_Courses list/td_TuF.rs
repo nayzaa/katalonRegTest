@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_0</name>
+   <name>td_TuF</name>
    <tag></tag>
-   <elementGuidId>b80f09cf-a1fc-45f3-be31-69cfa04d6599</elementGuidId>
+   <elementGuidId>2d37f9b4-1d7e-4124-886a-c6c74b395bc0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>0</value>
+      <value>TuF</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

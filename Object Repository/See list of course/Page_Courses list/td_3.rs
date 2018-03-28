@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_12.30-15.30</name>
+   <name>td_3</name>
    <tag></tag>
-   <elementGuidId>f83ff4ec-56f1-4590-af84-713605ff4ea3</elementGuidId>
+   <elementGuidId>e1c3bbae-6bf0-4087-9347-63943341006a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>12.30-15.30</value>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

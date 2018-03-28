@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Rapee Sangsakorn</name>
+   <name>td_TuF</name>
    <tag></tag>
-   <elementGuidId>11b35ed1-cfa3-44ac-adc6-37f2fb68e40d</elementGuidId>
+   <elementGuidId>3d3dd608-1b62-4dcb-bc8c-dd3df304a1e9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rapee Sangsakorn</value>
+      <value>TuF</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

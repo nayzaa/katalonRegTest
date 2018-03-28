@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_TuF</name>
+   <name>td_AKB4801</name>
    <tag></tag>
-   <elementGuidId>5310e3c7-d10a-4bc7-b5a5-58eeb9748595</elementGuidId>
+   <elementGuidId>74d15d3a-9748-4750-aae4-6f0c86351601</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TuF</value>
+      <value>AKB4801</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

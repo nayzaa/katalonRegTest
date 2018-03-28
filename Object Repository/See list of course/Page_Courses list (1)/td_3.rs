@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_AKB4801</name>
+   <name>td_3</name>
    <tag></tag>
-   <elementGuidId>a05d397d-8c30-4e58-b879-cf98d8912671</elementGuidId>
+   <elementGuidId>5522cd15-1341-49c1-b569-c88d24a1b4f0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>AKB4801</value>
+      <value>3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
