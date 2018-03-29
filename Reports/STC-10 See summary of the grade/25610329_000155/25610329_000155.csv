@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+STC-10 See summary of the grade,Chrome 65.0.3325.181,,2561-03-29 00:01:56,2561-03-29 00:02:01,4.512s,PASSED
+,,,,,,
+Test Cases/See_summary_of_the_grade,Chrome 65.0.3325.181,,2561-03-29 00:01:56,2561-03-29 00:02:01,4.185s,PASSED
+openBrowser,Chrome 65.0.3325.181,,2561-03-29 00:01:57,2561-03-29 00:01:59,2.621s,PASSED
+navigateToUrl,Chrome 65.0.3325.181,,2561-03-29 00:01:59,2561-03-29 00:02:00,0.514s,PASSED
+click,Chrome 65.0.3325.181,,2561-03-29 00:02:00,2561-03-29 00:02:00,0.081s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2561-03-29 00:02:00,2561-03-29 00:02:00,0.024s,PASSED
+click,Chrome 65.0.3325.181,,2561-03-29 00:02:00,2561-03-29 00:02:00,0.058s,PASSED
+verifyElementPresent,Chrome 65.0.3325.181,,2561-03-29 00:02:00,2561-03-29 00:02:00,0.012s,PASSED
+closeBrowser,Chrome 65.0.3325.181,,2561-03-29 00:02:00,2561-03-29 00:02:01,0.657s,PASSED

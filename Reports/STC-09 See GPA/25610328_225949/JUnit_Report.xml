@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STC-09 See GPA" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="STC-09 See GPA" tests="1" failures="0" errors="0" time="4" timestamp="2561-03-28 22:59:50" hostname="Max - DESKTOP-Q39DD9V" id="Test Suites/STC-09 See GPA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Max\\git\\katalonRegTest\\Reports\\STC-09 See GPA\\25610328_225949"/>
+         <property name="logFiles" value="C:\\Users\\Max\\git\\katalonRegTest\\Reports\\STC-09 See GPA\\25610328_225949\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Max - DESKTOP-Q39DD9V"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="c90cd236b883934d0efdbfba1218d982"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/See_GPA" classname="Test Cases/See_GPA" status="PASSED">
+         <system-out><![CDATA[2561-03-28 22:59:50 - [TEST_CASE][PASSED] - Test Cases/See_GPA: Test Cases/See_GPA
+
+2561-03-28 22:59:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://butterfried.github.io/SE323-proj01-registration/gpa.html' successfully
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Navigate to 'https://butterfried.github.io/SE323-proj01-registration/gpa.html' successfully
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/See GPA/Page_GPA Result/th_Total Credits' is clicked on
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/See GPA/Page_GPA Result/th_Total Credits' is clicked on
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/See GPA/Page_GPA Result/th_Total Credits' is present
+
+2561-03-28 22:59:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/See GPA/Page_GPA Result/th_Total Credits' is present
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/See GPA/Page_GPA Result/td_15' is clicked on
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/See GPA/Page_GPA Result/td_15' is clicked on
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/See GPA/Page_GPA Result/td_15' is present
+
+2561-03-28 22:59:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/See GPA/Page_GPA Result/td_15' is present
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/See GPA/Page_GPA Result/th_GPA' is clicked on
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/See GPA/Page_GPA Result/th_GPA' is clicked on
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/See GPA/Page_GPA Result/th_GPA' is present
+
+2561-03-28 22:59:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/See GPA/Page_GPA Result/th_GPA' is present
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/See GPA/Page_GPA Result/td_4.00' is clicked on
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/See GPA/Page_GPA Result/td_4.00' is clicked on
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/See GPA/Page_GPA Result/td_4.00' is present
+
+2561-03-28 22:59:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2561-03-28 22:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/See GPA/Page_GPA Result/td_4.00' is present
+
+2561-03-28 22:59:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-28 22:59:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-03-28 22:59:50 - [TEST_SUITE][PASSED] - STC-09 See GPA: Test Cases/See_GPA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

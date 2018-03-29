@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STC-03 Create a course" time="35" tests="8" failures="0" errors="0">
+   <testsuite name="STC-03 Create a course" tests="8" failures="0" errors="0" time="35" timestamp="2561-03-29 04:25:39" hostname="Fluke - DESKTOP-K9ATRN2" id="Test Suites/STC-03 Create a course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fluke\\Desktop\\katalonRegTest-master\\katalonRegTest\\Reports\\STC-03 Create a course\\25610329_042538"/>
+         <property name="logFiles" value="C:\\Users\\Fluke\\Desktop\\katalonRegTest-master\\katalonRegTest\\Reports\\STC-03 Create a course\\25610329_042538\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fluke - DESKTOP-K9ATRN2"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="171ec995156f235be3f90a24fc8c08c7"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create_Course_AllCorrectInformation_MessageSuccess" classname="Test Cases/Create_Course_AllCorrectInformation_MessageSuccess" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:25:40 - [TEST_CASE][PASSED] - Test Cases/Create_Course_AllCorrectInformation_MessageSuccess: Test Cases/Create_Course_AllCorrectInformation_MessageSuccess
+
+2561-03-29 04:25:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:25:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:25:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - verifyAlertPresent: Alert is present after 200 second(s).
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Alert is present after 200 second(s).
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2561-03-29 04:25:45 - [MESSAGE][PASSED] - Alert accepted
+
+2561-03-29 04:25:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:25:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankAcademicYear_MessagePleaseFill" classname="Test Cases/Create_Course_BlankAcademicYear_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:25:46 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankAcademicYear_MessagePleaseFill: Test Cases/Create_Course_BlankAcademicYear_MessagePleaseFill
+
+2561-03-29 04:25:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:25:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:25:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:48 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:48 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:48 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:48 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:48 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:25:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankCourseID_MessagePleaseFill" classname="Test Cases/Create_Course_BlankCourseID_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:25:50 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankCourseID_MessagePleaseFill: Test Cases/Create_Course_BlankCourseID_MessagePleaseFill
+
+2561-03-29 04:25:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:25:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:25:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:52 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:52 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:52 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:25:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:25:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankCourseName_MessagePleaseFill" classname="Test Cases/Create_Course_BlankCourseName_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:25:54 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankCourseName_MessagePleaseFill: Test Cases/Create_Course_BlankCourseName_MessagePleaseFill
+
+2561-03-29 04:25:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:25:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:25:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:57 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:25:57 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:58 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:25:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:25:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:25:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankCredit_MessagePleaseFill" classname="Test Cases/Create_Course_BlankCredit_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:25:58 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankCredit_MessagePleaseFill: Test Cases/Create_Course_BlankCredit_MessagePleaseFill
+
+2561-03-29 04:25:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:26:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:26:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:01 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:01 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:02 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:26:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankLecturer_MessagePleaseFill" classname="Test Cases/Create_Course_BlankLecturer_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:26:02 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankLecturer_MessagePleaseFill: Test Cases/Create_Course_BlankLecturer_MessagePleaseFill
+
+2561-03-29 04:26:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:26:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:26:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:05 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:05 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:05 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:05 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:05 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:05 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:26:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankMaxStudent_MessagePleaseFill" classname="Test Cases/Create_Course_BlankMaxStudent_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:26:07 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankMaxStudent_MessagePleaseFill: Test Cases/Create_Course_BlankMaxStudent_MessagePleaseFill
+
+2561-03-29 04:26:07 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:26:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:26:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:09 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:09 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:09 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:09 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - setText: Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Text '701' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_section-value'
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:26:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create_Course_BlankSection_MessagePleaseFill" classname="Test Cases/Create_Course_BlankSection_MessagePleaseFill" status="PASSED">
+         <system-out><![CDATA[2561-03-29 04:26:11 - [TEST_CASE][PASSED] - Test Cases/Create_Course_BlankSection_MessagePleaseFill: Test Cases/Create_Course_BlankSection_MessagePleaseFill
+
+2561-03-29 04:26:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2561-03-29 04:26:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2561-03-29 04:26:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Navigate to 'https://pannatat.github.io/test.SE323-project.io/index_a.html' successfully
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - setText: Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Text 'Crypto Currency' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseName'
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - setText: Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Text '123321' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_courseId'
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_radio1' is clicked on
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/STC-03 Create course_OR/Page_Admin/select_Please select'  using regular expression
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-checkbox' is clicked on
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - setText: Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Text '40' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_student'
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - setText: Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_credit'
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - setText: Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:14 - [MESSAGE][PASSED] - Text 'Surasung Vunlai' is set on object 'Object Repository/STC-03 Create course_OR/Page_Admin/input_uk-input uk-form-width-l'
+
+2561-03-29 04:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/STC-03 Create course_OR/Page_Admin/button_Add Course' is clicked on
+
+2561-03-29 04:26:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2561-03-29 04:26:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2561-03-29 04:25:39 - [TEST_SUITE][PASSED] - STC-03 Create a course: Test Cases/Create_Course_BlankSection_MessagePleaseFill]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
